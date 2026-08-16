@@ -1,0 +1,61 @@
+#greeting {
+    text-align:center;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: 0 0 6px #C8E6FF;
+
+}
+body{
+    background-color: black;
+    color: #C8E6FF;
+    text-align: center;
+    font-family: "Avenir Next", sans-serif;
+    font-weight: 100;
+    text-shadow: 0 0 6px #C8E6FF;
+
+}
+#title {
+font-weight:450;
+text-shadow: 0 0 5px #C8E6FF;
+}
+
+#date {
+    font-weight:400;
+    text-shadow: 0 0 5px #C8E6FF;
+
+}
+.mirror-layout{
+    display: grid;
+    grid-template-columns: minmax(350px, 1fr) 2fr minmax(350px, 1fr);
+    padding: 5px;
+}
+.top{
+    grid-column: 1/4 ;
+
+}
+#weather {
+    white-space: pre-line;
+   
+}
+
+#news {
+    white-space: pre-line;
+    
+}
+
+.news-section h3,
+.weather-section h3,
+.quote-section h3 {
+    font-weight: 500;
+    text-shadow: 0 0 6px #C8E6FF;
+}
+
+#news {
+    white-space: pre-line;
+    line-height: 1.45;
+}
+
+#quote {
+    white-space: pre-line;
+    line-height: 1.45;
+}
